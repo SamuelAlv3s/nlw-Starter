@@ -14,33 +14,29 @@
     {% include "partials/page-header.html"%}
 
     <main>
+        {% if total > 0%}
         <h4>
-            <strong>2 Pontos</strong>
+            <strong>{{total}} Pontos</strong>
             encontrados</h4>
 
         <div class="cards">
+            {% for place in places %}
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1528190336454-13cd56b45b5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
-                <h2>Colectoria</h2>
-                <h3>Resíduos eletrônicos, Lâmpadas</h3>
+                <img src="{{place.image}}">
+                <h2>{{place.name}}</h2>
+                <h3>{{place.items}}</h3>
                 <p>
-                    Vitória da Conquista, Bahia<br/>
-                    Centro
+                    {{place.city}}, {{place.state}}<br/>
+                    {{place.address}}
                     <br/>
-                    Número 1234678
+                    {{place.address2}}
                 </p>
             </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80" alt="Paperside">
-                <h2>Paperside</h2>
-                <h3>Papeis e Papelão</h3>
-                <p>
-                    Vitória da Conquista, Bahia<br/>
-                    Centro
-                    <br/>
-                    Número 1234678
-                </p>
-            </div>
+            {% endfor %}
         </div>
+
+        {% else %}
+            <h4><strong>Nenhum</strong> local encontrado</h4>
+        {% endif %}
     </main>
 {% endblock content %}
