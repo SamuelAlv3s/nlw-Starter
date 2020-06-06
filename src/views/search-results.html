@@ -1,57 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado da pesquisa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/styles/main.css">
+{% extends "layout.html"%}
+
+{% set pageId = "page-search-results" %}
+
+{% block title %}
+    <title>Pontos de coleta</title>
+{% endblock title %}
+
+{% block styles %}
     <link rel="stylesheet" href="/styles/search-results.css">
-    <link rel="stylesheet" href="/styles/responsive.css">
-</head>
-<body>
+{% endblock styles %}
 
-    <div id="page-search-results">
+{% block content %}
+    {% include "partials/page-header.html"%}
 
+    <main>
+        <h4>
+            <strong>2 Pontos</strong>
+            encontrados</h4>
 
-            <header>
-    
-                <img src="/assets/icones/logo.svg" alt="Logo Ecoleta">
-    
-                <a href="/index.html">
-                    <span></span>
-                    Voltar para home
-                </a>
-    
-            </header>
-
-           <main>
-               <h4><strong>2 Pontos</strong> encontrados</h4>
-
-               <div class="cards">
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1528190336454-13cd56b45b5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
-                        <h2>Colectoria</h2>
-                        <h3>Resíduos eletrônicos, Lâmpadas</h3>
-                        <p>
-                            Vitória da Conquista, Bahia<br/>
-                            Centro <br/>
-                            Número 1234678
-                        </p>
-                    </div>
-                    <div class="card">
-                        <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80" alt="Paperside">
-                        <h2>Paperside</h2>
-                        <h3>Papeis e Papelão</h3>
-                        <p>
-                            Vitória da Conquista, Bahia<br/>
-                            Centro <br/>
-                            Número 1234678
-                        </p>
-                    </div>
-               </div>
-           </main>
-            
-    </div>
-</body>
-</html>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1528190336454-13cd56b45b5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+                <h2>Colectoria</h2>
+                <h3>Resíduos eletrônicos, Lâmpadas</h3>
+                <p>
+                    Vitória da Conquista, Bahia<br/>
+                    Centro
+                    <br/>
+                    Número 1234678
+                </p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1528323273322-d81458248d40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=801&q=80" alt="Paperside">
+                <h2>Paperside</h2>
+                <h3>Papeis e Papelão</h3>
+                <p>
+                    Vitória da Conquista, Bahia<br/>
+                    Centro
+                    <br/>
+                    Número 1234678
+                </p>
+            </div>
+        </div>
+    </main>
+{% endblock content %}
