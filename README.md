@@ -43,16 +43,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Css
 - Javascript
 - Nodejs
+- Nodemon
+- Nunjucks
 - sqlite3
 
-## :link: Como contribuir
-
-- Faça um Fork do repositório,
-- Faça um clone do respositório
-- Crie uma branch com a sua feature
-- Faça um commit com suas mudanças
-- Push a sua branch
-- Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
 
 ## Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
