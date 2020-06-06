@@ -22,7 +22,6 @@ NextLevelWeek - Starter
   <a href="#information_source-sobre">Sobre</a> |
   <a href="#interrobang-motivo">Motivo</a> | 
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
-  <a href="#link-como-contribuir">Como Contribuir</a> | 
   <a href="#licença">Licença</a> 
 </h3>
 
