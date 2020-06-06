@@ -5,6 +5,10 @@ NextLevelWeek - Starter
 <p align="center"> 
 
 <img src="https://raw.githubusercontent.com/DanielObara/NLW-1.0/master/.github/logo.svg?sanitize=true" width="300" heigth="300">
+
+</p>
+
+<p align="center">
 <img src="https://camo.githubusercontent.com/e8ab4d776d1a3f635b04b0abcae9debbebd33a16/68747470733a2f2f73332d73612d656173742d312e616d617a6f6e6177732e636f6d2f726f636b6574736561742d63646e2f726f636b6574736561745f6c6f676f5f726f78612e706e67">
 https://camo.githubusercontent.com/e8ab4d776d1a3f635b04b0abcae9debbebd33a16/68747470733a2f2f73332d73612d656173742d312e616d617a6f6e6177732e636f6d2f726f636b6574736561742d63646e2f726f636b6574736561745f6c6f676f5f726f78612e706e67
 </p>
@@ -23,7 +27,6 @@ https://camo.githubusercontent.com/e8ab4d776d1a3f635b04b0abcae9debbebd33a16/6874
   <a href="#licença">Licença</a> 
 </h3>
 
-<img src="" width="1200">
 
 ## :information_source: Sobre
 
