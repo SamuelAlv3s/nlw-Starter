@@ -26,6 +26,8 @@ NextLevelWeek - Starter
   <a href="#licença">Licença</a> 
 </h3>
 
+![index](https://user-images.githubusercontent.com/49680351/83939235-c555b580-a7b1-11ea-8521-7dfdadc16fd9.png)
+
 
 ## :information_source: Sobre
 
