@@ -22,7 +22,6 @@ NextLevelWeek - Starter
   <a href="#information_source-sobre">Sobre</a> |
   <a href="#interrobang-motivo">Motivo</a> | 
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a> | 
-  <a href="#licença">Licença</a> 
 </h3>
 
 ![index](https://user-images.githubusercontent.com/49680351/83939235-c555b580-a7b1-11ea-8521-7dfdadc16fd9.png)
@@ -34,7 +33,7 @@ Ecoleta é um projeto desenvolvido com base na semana internacional do meio ambi
 
 ## :interrobang: Motivo
 
-Aprimora conhecimentos e aprender mais sobre as tecnologias bases da web (html, css, javascript), além do Nodejs e banco de dados.
+Aprimorar conhecimentos e aprender mais sobre as tecnologias bases da web (html, css, javascript), além do Nodejs e banco de dados.
 
 ## :rocket: Tecnologias Utilizadas
 
@@ -48,6 +47,3 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - Nunjucks
 - sqlite3
 
-
-## Licença
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
