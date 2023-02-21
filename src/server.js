@@ -73,4 +73,4 @@ server.post('/create-point', (req, res) => {
     db.run(query, values, afterInsertData);
 });
 
-server.listen(enviroment.PORT || 3000);
+server.listen(process.env.PORT || 3000);
